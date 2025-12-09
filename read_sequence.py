@@ -1,0 +1,5 @@
+file = open ("dna.txt" , "r")
+dna = file.read()
+print("DNA sequence is:")
+print(dna)
+file.close()
